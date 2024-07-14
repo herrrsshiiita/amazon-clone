@@ -1,0 +1,252 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+}
+.navbar{
+    
+    height: 60px;
+    background-color: black;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+  
+    height: 50px;
+    width:100px;
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+}
+.border{
+    border: 1px solid transparent;
+
+}
+.border:hover{
+    border:1px solid rgb(216, 220, 223);
+    border-radius: 4px;
+}
+.deliver{
+    width: 80px;
+}
+.icon{
+display:flex;
+}
+#d{
+    margin-left: 14px;
+    font-size: 0.75rem;
+    color: #cccccc;
+}
+#ind{
+    margin-left: 3px;
+    font-size: 1 rem;
+font-style: bold;
+}
+.searchbar{
+    display:flex;
+    background-color: orange;
+    color: rgb(40, 1, 1);
+    width: 700px;
+    height: 40px;
+    border-radius: 4px;
+}
+.searchbar:hover{
+    border: 3px solid rgb(255, 157, 0);
+}
+#all{
+    width: 70px;
+    text-align: center;
+    background-color: rgb(229, 225, 225);
+    border-top-left-radius:4px ;
+     border-bottom-left-radius:4px ;
+
+}
+#all:hover{
+background-color: rgb(174, 170, 170);
+}
+#search{
+    width:100%;
+}
+.s{
+    width:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.account{
+    font-size: 0.75rem;
+}
+.list{
+    font-size: 0.9rem;
+    font-weight :700px;
+    display: flex;
+}
+.cart{
+display: flex;
+padding-right: 15px;
+}
+#carticon{
+    font-size: 1.9rem;
+}
+.panel{
+    background-color: rgb(41, 59, 74);
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+.menu{
+    width:50px;
+    font-weight: 700px;
+
+}
+
+.popts a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;  
+    font-size: 0.8rem;
+}
+
+.popts{
+    width:100%;
+    
+    display: inline;
+}
+.deals{
+    width: 200px;
+}
+.deals a{
+    color: white;
+    
+    text-decoration: none;
+
+}
+
+.hero{
+    height:340px;
+    background-image: url("hero.jpg");
+background-size: cover;
+}
+.msg{
+    height:40px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    top:250px;
+    margin-left: 150px;
+}
+.msg a{
+    color: #007185;
+}
+.shop{
+    display: flex;
+    height: 400px;
+    background-color: #e2e7e6;
+     justify-content: space-evenly; 
+}
+.box{
+height: 350px;
+width: 23%;
+background-color: white;
+
+margin-top : 35px;
+}
+.img{
+    height: 75%;
+    width:85%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin-left: 7%;
+    margin-top: 2.5%;
+}
+.box h2{
+    margin-top: 6%;
+    margin-left:7%;
+}
+.box p{
+    margin-left: 7%;
+    margin-top: 98%px;
+    color: #007185;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+}
+.p2{
+    background-color: #232e3f;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.c{
+     /* border: 2px solid black;  */
+    height:200px;
+    width: 18%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+    
+}
+.c a{
+    color: #eeeeee;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+   /* margin-left: 40px; */
+   margin-bottom:10px;
+}
+/* .c p{
+    align-self: flex-start;
+} */
+.p2 h4{
+    /* text-align: center; */
+     /* font-weight:1000px ; */
+     color: white;
+     /* font-size: 1rem; */
+     margin-bottom: 15px;
+}
+.p3{
+    height: 70px;
+    border-top: 0.5px solid white;
+    background-color: #232e3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p4{
+    height: 60px;
+    background-color: #131a22;
+    color: white;
+    
+}
+.pages{
+    height:25px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.pages a{
+    color: #dddddd;
+    text-decoration: none;
+    margin-left: 17px;  
+    font-size: 0.75rem;
+    
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 0.75rem;
+    color: #dddddd;
+}
